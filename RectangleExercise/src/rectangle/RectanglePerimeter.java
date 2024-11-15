@@ -26,11 +26,14 @@ public class RectanglePerimeter {
 	public void setHeight(double height) {
 		this.height = height;
 	}
-	
+	//area calculator and getter
+	public double getArea() {
+		return widht * height;
+	}
 	
 	//create the perimeter calculator method
 	public double CalculatePerimeter() {
-		double perimeter = height * widht;
+		double perimeter = 2 * (height + widht);
 		return perimeter;
 	}
 }
