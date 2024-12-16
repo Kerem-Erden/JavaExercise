@@ -1,0 +1,16 @@
+package moneyClass;
+
+public class Gold extends Assets {
+	
+	private double goldCurrency;
+	//constructor
+	public Gold(double amount, double goldCurrency) {
+		super(amount);
+		this.amount = goldCurrency * this.amount ;
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	
+	
+}

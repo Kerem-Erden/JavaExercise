@@ -1,0 +1,15 @@
+package moneyClass;
+
+public class Dollars extends Assets	{
+	
+	private double dollarCurrency;
+	//constructor
+	public Dollars(double amount) {
+		super(amount);
+		this.dollarCurrency = 34.87;
+		this.amount = this.dollarCurrency * this.amount;
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+}

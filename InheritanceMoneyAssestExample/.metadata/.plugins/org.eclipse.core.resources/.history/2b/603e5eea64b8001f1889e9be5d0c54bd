@@ -1,0 +1,11 @@
+package moneyClass;
+
+public class Euros extends Assets {
+
+	//constructor
+	public Euros(double amount) {
+		super(amount);
+		// TODO Auto-generated constructor stub
+	}
+
+}
